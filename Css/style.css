@@ -1,0 +1,498 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: #d84f57;
+  padding: 0px 320px 0px 325px;
+}
+#left-navigation {
+  float: left;
+}
+.logo-1 {
+  display: inline-block;
+}
+#left-navigation ul li img {
+  margin-bottom: -20px;
+  height: 50px;
+  width: 85px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.582);
+}
+.left-nav {
+  display: inline-block;
+}
+#right-navigation {
+  float: right;
+  margin-top: 16px;
+}
+#left-nav-4 {
+  margin-right: 0px;
+}
+.right-nav {
+  display: inline-block;
+}
+#panel-image img {
+  margin-top: -62px;
+  height: 450px;
+  width: 100%;
+}
+.search1 {
+  top: 205px;
+  position: absolute;
+  z-index: 1;
+  left: 600px;
+}
+form input {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 18%);
+  padding: 9px 26px 9px 15px;
+}
+form i {
+  position: absolute;
+  top: 18px;
+  font-size: 1.5rem;
+  margin-left: 2px;
+  color: #837d7d;
+}
+.btn {
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 1px 2px 1px #0000;
+  background-color: #d84f57;
+}
+.btn:hover {
+  background-color: #e96770;
+}
+.discount {
+  cursor: pointer;
+  margin: -70px 0px 0px 614px;
+  width: 730px;
+  height: 120px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 2px 2px 8px #665959;
+}
+#header-2 a {
+  text-decoration: none;
+  color: black;
+}
+.first-1 {
+  display: inline-block;
+}
+.discount img {
+  width: 125px;
+  height: 110px;
+  margin-left: 30px;
+}
+.class-1 {
+  margin: 25px 150px 0px 0px;
+  float: right;
+}
+#coupons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  width: auto;
+  height: 250px;
+}
+.coupons-1 {
+  text-align: center;
+  margin-right: 25px;
+  width: 325px;
+  height: 210px;
+  box-shadow: 2px 2px 8px #665959;
+}
+.coupons-1:hover {
+  transform: scale(1.04);
+}
+.coupons-1 img {
+  height: 150px;
+  width: 250px;
+}
+.coupons-1 p {
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+#saftey {
+  height: 300px;
+  width: 1060px;
+  margin: auto;
+  margin-top: 95px;
+  border: 1px solid #ebe9e9;
+}
+.saftey-1 {
+  display: inline-block;
+}
+#saftey-logo {
+  margin: 15px 25px 0px 15px;
+  width: 88px;
+  height: 88px;
+}
+.saftey-content {
+  padding: 4px 0px;
+  margin: 15px 0px 25px 0px;
+  float: right;
+}
+#saftey-header {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #3e3e52;
+}
+#saftey-description {
+  font-size: 1.5rem;
+  color: #3e3e52;
+}
+#more {
+  font-size: 0.7rem;
+  color: darkblue;
+  font-weight: 700;
+}
+#Safety-tag {
+  margin: 0px 0px 20px 125px;
+}
+#saftey-imgtag {
+  width: 20px;
+  height: 15px;
+}
+#saftey-imgtag-2 {
+  width: 65px;
+  height: 16px;
+}
+#saftey-instruction {
+  margin-left: 125px;
+  margin-top: 35px;
+}
+#condition th {
+  color: #1446a0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+#saftey-instruction tr td {
+  padding-right: 28px;
+  font-size: 0.8rem;
+}
+#mobile-application {
+  background-image: url("IMG/city_scape_app_download.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 100px;
+  height: 600px;
+}
+#mobile-application-content {
+  margin: auto;
+}
+#link-mobileapp {
+  float: left;
+  margin: 25px 0px 0px 400px;
+  height: 500px;
+  width: 450px;
+}
+.mobile-app-head {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+.mobile-app-description p {
+  text-align: left;
+  color: #3e3e52;
+  font-size: 0.88rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.mobile-app-form input {
+  width: 200px;
+}
+#mobile-img {
+  margin: 25px 400px 0px 0px;
+  float: right;
+}
+#mobile-img img {
+  height: 550px;
+}
+.mobile-app-icon {
+  margin-top: 10px;
+}
+.btn2 {
+  color: white;
+  border: none;
+  padding: 6px;
+  width: 150px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  cursor: pointer;
+  box-shadow: 1px 2px 1px #0000;
+  background-color: #d84f57;
+}
+.btn2:hover {
+  background-color: #e96770;
+}
+.promise {
+  height: 600px;
+  width: 100%;
+  background-color: #e7e7e7;
+}
+#promise-header {
+  text-align: center;
+}
+#promise-header img {
+  margin-top: 10px;
+  height: 100px;
+  width: 90px;
+}
+#promise-header1 {
+  font-size: 1.78rem;
+  font-weight: 600;
+  color: #5a4f4f;
+  padding: 20px 0px;
+}
+.benefits {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.benefit {
+  height: 375px;
+  width: 420px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+}
+.benefit img {
+  margin-top: 40px;
+  height: 90px;
+}
+.benefit p {
+  margin-top: 45px;
+  color: #665959;
+  font-size: 0.86rem;
+}
+.award {
+  margin-top: 60px;
+  height: 580px;
+  width: 100%;
+  background-color: white;
+}
+#award-header1 {
+  font-size: 1.78rem;
+  font-weight: 600;
+  color: #5a4f4f;
+  text-align: center;
+  padding: 20px 0px;
+}
+.awards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.award-img {
+  height: 375px;
+  width: 395px;
+}
+.award-img img {
+  margin-top: 100px;
+  height: 120px;
+  width: 190px;
+}
+.award-img p {
+  margin-top: 45px;
+  color: #665959;
+  letter-spacing: 5px;
+  font-size: 0.86rem;
+}
+
+.global {
+  height: 460px;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+#global-header {
+  text-align: center;
+}
+#global-header1 {
+  font-size: 1.78rem;
+  font-weight: 600;
+  color: #5a4f4f;
+  padding: 20px 0px;
+}
+.country-flag {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 420px;
+  width: 1000px;
+  justify-content: center;
+}
+.country {
+  margin: 0px 100px;
+}
+.country img {
+  margin-top: 40px;
+  width: 130px;
+  height: 80px;
+}
+.country p {
+  margin-top: 20px;
+  color: #665959;
+  font-size: 1rem;
+}
+
+.count {
+  height: 375px;
+  width: 100%;
+}
+#count-header {
+  text-align: center;
+}
+#count-header1 {
+  font-size: 1.78rem;
+  font-weight: 600;
+  color: #5a4f4f;
+  padding: 20px 0px;
+}
+.achivement {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 1281px;
+  justify-content: center;
+}
+.achive {
+  height: 250px;
+  width: 213px;
+  color: #a7a7a7;
+  margin: 45px 111px;
+}
+#achive-tag {
+  font-size: 3rem;
+  color: #da4e52;
+}
+.achive p {
+  margin-top: 20px;
+  color: #665959;
+  font-size: 0.89rem;
+}
+.footer-1 {
+  height: 620px;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+.operator-1 {
+  width: 1040px;
+  margin: auto;
+}
+#operator-table {
+  cursor: pointer;
+  padding-top: 40px;
+  text-align: left;
+}
+#operator-table table th {
+  color: rgb(59, 58, 58);
+  padding: 5px 61px 5px 0px;
+}
+#operator-table table td {
+  font-size: 0.89rem;
+  color: rgb(59, 58, 58);
+  padding: 5px 56px 5px 0px;
+}
+footer hr {
+  margin-top: 40px;
+}
+#operations {
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding-top: 40px;
+}
+
+#operations p {
+  padding: 20px 0px;
+  font-weight: 300;
+  font-size: 0.89rem;
+}
+#operator-name {
+  text-align: left;
+  padding: 0px 10px 10px 0px;
+}
+#for-more {
+  text-align: right;
+}
+#footer-2 {
+  background-color: #1b2330;
+  height: 335px;
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+#footer-2table {
+  float: left;
+  width: 700px;
+  font-size: 0.75rem;
+  font-weight: 200;
+  margin: 30px 0px 0px 430px;
+  text-align: left;
+}
+#footer-2table th {
+  color: #797979;
+  padding-bottom: 10px;
+}
+#footer-2table tr td {
+  width: 170px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+#footer-2overview {
+  float: right;
+  width: 350px;
+  font-size: 0.75rem;
+  font-weight: 200;
+  margin: 30px 420px 0px 0px;
+}
+#description {
+  margin-top: 5px;
+  padding-left: 12px;
+  font-size: 0.8rem;
+  font-weight: 100;
+  word-spacing: 1px;
+  line-height: 2;
+}
+#icon {
+  margin: 12px;
+}
+#icon i {
+  padding-right: 10px;
+}
+.fa-brands {
+  font-size: 2.3rem;
+}
+#copyright {
+  margin-left: 12px;
+}
+#cr-symbol {
+  font-size: 1rem;
+  font-weight: 600;
+}
